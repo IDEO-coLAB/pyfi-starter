@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>PyFi Client!</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"/>
+    <style>
+      body{
+        font-family: sans-serif;
+      }
+      .wrapper{
+        width: 600px;
+        margin: 40px auto;
+      }
+      input{
+        width: 40px;
+      }
+      progress{
+        margin: 20px 0px;
+        width: 100%;
+      }
+      code{
+        white-space: pre;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>Welcome to PyFiClient!</h2>
+      <h3>Let's see it in action.</h3>
+      <p>We have this method defined in Python:</p>
+      <code>
+        def slow_task(time_per_tick):
+            total_time = 0
+            for i in range(0,100):
+                pyfi_message({"progress": i})
+                time.sleep(time_per_tick)
+                total_time += time_per_tick
+            return(total_time)
+      </code>
+      <p>Let's run the <code>slow_task(</code><input id="input" type="text" value="0.02"><code>)</code> and stream progress back to the browser.</p>
+      <button id="button">Run Now!</button>
+      <progress id="progress" value="0" max="100"></progress>
+      <div id="result"></div>
+      <script src="/client-built.js"></script>
+    </div>
+  </body>
+</html>
