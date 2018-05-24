@@ -6,7 +6,7 @@ This is a simple starter/example app for [Pyfi](https://github.com/IDEO-coLAB/py
 
 First, clone this repo.
 
-Then, you'll want to be sure that you're working in a Python 3.4+ environment. You could do that by creating and activating a virtual evinronment:
+Then, you'll want to be sure that you're working in a Python 3.4+ environment. You could do that by creating and activating a virtual environment:
 ```
 python3 -m venv venv
 source venv/bin/activate
