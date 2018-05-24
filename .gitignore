@@ -1,4 +1,4 @@
 node_modules
-public/client-built.js
+*-built.js
 .DS_store
 __pycache__
