@@ -12,8 +12,13 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-Now you're ready to go! Just
+Now you can get up and running in two steps:
+
+```
+npm install
+```
+and finally:
 ```
 npm run dev
 ```
-And you should be able to access to sample app at `http://localhost:3000`.
+Now you should be able to access to sample app at `http://localhost:3000`.
