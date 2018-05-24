@@ -2,3 +2,4 @@ node_modules
 *-built.js
 .DS_store
 __pycache__
+venv
