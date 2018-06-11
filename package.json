@@ -11,6 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^3.5.1",
+    "nodemon": "^1.17.5",
     "webpack": "^4.8.3",
     "webpack-cli": "^2.1.4"
   },
