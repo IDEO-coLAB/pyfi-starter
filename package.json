@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "express": "^4.16.3",
-    "pyfi": "^1.0.7",
+    "pyfi": "^1.0.8",
     "pyfi-client": "^1.0.4",
     "socket.io": "^2.1.1"
   }
